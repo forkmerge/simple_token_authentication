@@ -130,6 +130,20 @@ SimpleTokenAuthentication.configure do |config|
   #
   # config.header_names = { user: { authentication_token: 'X-User-Token', email: 'X-User-Email' } }
 
+  # Configure the ORM, ODM to be used to provide token authenticatable models
+  #
+  # ActiveRecord and Mongoid are supported.
+  #
+  # Examples:
+  #
+  # Mongoid only:
+  # config.adapters = ['mongoid']
+  #
+  # ActiveRecord and Mongoid:
+  # config.adapters = ['active_record', 'mongoid']
+  #
+  # Default:
+  # config.adapters = ['active_record']
 end
 ```
 

@@ -27,4 +27,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "database_cleaner", "~> 1.2"
   s.add_development_dependency "aruba", "~> 0.5.4"
   s.add_development_dependency "inch", "~> 0.4.6"
+  s.add_development_dependency 'mongoid', '>= 3.1.0', '< 5'
 end
